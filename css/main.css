@@ -1,3 +1,359 @@
-/*
- * Estilos de tu proyecto
- */
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+/*_________________________________________________________Clases reutilizables__________________________________________________________*/
+
+.monse{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	max-width: 1449px;
+
+}
+/*__________________________________________________________HEADER_______________________________________________________________________*/
+
+
+header{
+	background-color: #2c3e50;
+	height: 108px;
+	width:100%;
+	margin-bottom:0px;
+	position: fixed;
+	z-index: 2;     /*Para evitar que otros elementos se vean por encima del menú*/
+}
+.menu1{
+	height: 70px;
+	background-color: #2c3e50;
+}
+.start{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-weight:700;
+	font-size:32px;
+	line-height:48px;
+	margin-left:119px;
+	margin-right: 488px;
+	margin-top: 30px;
+}
+.boton{
+	display: inline-block;
+	margin-left: 10em;
+	color:white;
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 14px;
+	line-height: 24px;
+}
+.boton:hover{
+	color:  #18bc9c;
+}
+.botonprincipal{
+	/*display: inline-block;
+	margin-top: -50px;*/
+	float: right;
+	margin-right: 130px;
+    margin-top: 40px;
+}
+.sectionprincipal{
+	background-color: #18bc9c;
+	height: 650px;
+	text-align: center;
+	color: white;
+	font-size: 76px;
+	padding-top: 110px;
+}
+.photo1{
+	margin-top: 90px;
+
+}
+.sectionprincipal .section1 a{
+	display: block;
+	margin-bottom: -20px;
+}
+.fa-star{
+	color: white;
+	font-size: 30px;
+}
+.hr1{
+	display: inline-block;
+	width: 101px;
+	background-color: white;
+	border:none;
+	border-top: solid 5px;
+	margin-right: -10px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+.hr2{
+	display: inline-block;
+	width: 101px;
+	background-color: white;
+	border:none;
+	border-top: solid 5px;
+	margin-left: -10px;
+	vertical-align: middle;
+	margin-bottom:20px;
+}
+.section1 .bajada {
+	color: white;
+	font-size: 28px;
+	font-weight: 300;
+	
+}
+.section2{
+	height:790px;
+	background-color: white;
+	text-align: center;
+}
+.section2 .portfolio{
+	color: #212529;
+	font-size: 48px;
+	margin-bottom: 10px;
+	margin-top: 114px;
+}
+.star2, .hr1color, .hr2color{
+	color:#2c3e50;
+}
+.star2{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.segundo img{
+	display: inline-block;
+	width: 350px;
+	height: 250px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.section3{
+	background-color: #18bc9c;
+	height: 578px;
+	text-align: center;
+	color: white;
+}
+.about{
+	padding-top:52px;
+}
+.section3 h2{
+	font-size: 48px;
+	margin-bottom: 10px;
+	color:white;
+}
+
+p{
+	font-size: 20px;
+	font-weight: normal;
+	width: 350px;
+	height: 200px;
+	margin-right: 30px;
+	text-align:left;
+	line-height: 30px;
+}
+.p1,.p2{
+	display: inline-block;
+}
+div.p1{
+margin-left: 30px;
+margin-top: -10px;
+}
+.about .paragraphtotal{
+	height: 225px;
+}
+.secondparagraph{
+	position:relative;
+	top:-30px;
+}
+h4{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 14px;
+	margin-left: 5px;
+}
+.fa-download{
+	font-size: 20px;
+	font-weight: normal;
+}
+.download{
+	border: 2px solid white;
+	width: 213px;
+	height: 53px;
+	border-radius: 5px;
+	margin-left: 570px;
+}
+
+.download:hover{
+background-color: white;
+color:  #18bc9c;
+}
+.about .hr1{
+	margin-right: 5px;
+}
+.about .hr2{
+	margin-left: 5px;
+}
+
+.section4{
+	height:900px;
+	background-color: white;
+	text-align: center;
+
+}
+.cuarto h2{ 
+	padding-top: 60px;
+	font-size: 48px;
+	line-height: 58px;
+	margin-bottom: 15px;
+	color:#212529 ;
+}
+.inputdata{
+	width: 734px;
+	display: block;
+	border:none;
+	margin-left: 310px;
+	font-size: 24px;
+	line-height: 36px;
+	color: #212529;
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+.inputdata:focus{
+	outline:0px;   /*Encontre esta fórmula que nos permite eliminar el recuadro celeste del input al hacer click! genial.*/
+}
+
+::placeholder{
+	color:#868686 /*para cambiar el color del placeholder del input */
+}
+
+.inputblock .lastblock{
+	height: 170px;
+}
+
+.block{
+    margin-bottom: 0;
+    width: 734px;
+    height: 30px;
+    margin-left: 310px;
+    border-bottom: 1px solid #eee;
+    margin-top: 0;
+}
+
+.inputblock{
+	height: 50px;
+}
+
+.send{
+	width: 80px;
+	height: 50px;
+	background-color:#18bc9c; 
+	border-radius:5px;
+	position: relative;
+	top: 170px;
+    left: -330px;
+}
+.send:hover{
+	background-color: #128f76;
+}
+.send a{
+	text-decoration: none;
+	color:white;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 20px;
+	display: block;
+	margin-top: 9px;
+	font-weight: 700;
+}
+
+/*____________________________________________________________FOOTER____________________________________________________________*/
+
+footer{
+	height: 400px;
+	background-color: #2c3e50;
+	color:white;
+}
+table tr th h3{
+	font-size: 28px;
+	line-height: 34px;
+
+}
+table tr th{
+	padding: 70px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+table{
+	margin-left: 185px;
+
+}
+td{
+   padding: 0; 
+}
+
+table tr td h5{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+
+}
+table tr td h5 a{
+	text-decoration: none;
+	color:#18bc9c;
+}
+.lastpart{
+	text-align: center;
+
+}
+.totalicons{
+	padding: 0;
+}
+
+.icon{
+	color: white;
+	font-size: 20px;
+	border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 9px;
+}
+
+.icon:hover{
+color:#18bc9c;
+background:white;
+}
+
+
+.fa-facebook{
+	border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+ .fa-google-plus{
+ 	border: 2px solid white;
+   	border-radius: 40px;
+    padding: 10px;
+ }
+ .beverly{
+ 	margin-top: -34px;
+ }
+ .melrose{
+ 	margin-top: 0;
+ }
+ h6{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	
+}
+
+
+
