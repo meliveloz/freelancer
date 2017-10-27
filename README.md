@@ -78,3 +78,14 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+
+
+## Actualización Read Me.
+* El header esta compuesto por un menú horizontal.
+* La sección principal esta compuesta por el logo y la información generalizada.
+* En la sección dos se encuentra el portfolio con la galeria de fotos.
+* En la sección 3 encontramos información .
+* En sección cuatro ocupe las etiquetas input para crear el formulario.
+* Para terminar tenemos el footer que consta de los datos de ubicación , contacto y redes sociales.
+
