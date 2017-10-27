@@ -292,11 +292,13 @@ table tr th{
     padding-top: 20px;
 }
 table{
-	margin-left: 185px;
+	margin-left: 155px;
 
 }
 td{
    padding: 0; 
+   position: relative;
+   top: -40px;
 }
 
 table tr td h5{
@@ -315,6 +317,8 @@ table tr td h5 a{
 }
 .totalicons{
 	padding: 0;
+	position: relative;
+	top: -50px;
 }
 
 .icon{
@@ -352,6 +356,8 @@ background:white;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
+	position: relative;
+    left: -30px;
 	
 }
 
